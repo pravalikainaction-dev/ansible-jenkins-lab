@@ -1,6 +1,7 @@
 ---
 - name: Install and restart Apache2 using command module
   hosts: webservers
+  connection: local
   become: yes
 
   tasks:

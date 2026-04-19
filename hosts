@@ -1,2 +1,2 @@
 [webservers]
-localhost ansible_conncetion=local
+localhost
